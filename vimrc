@@ -1,5 +1,6 @@
 syntax on
 set background=dark
+colorscheme onehalfdark
 
 set expandtab " Expand tabs to spaces.
 autocmd FileType make set noexpandtab " Don't expand tabs for Makefile
