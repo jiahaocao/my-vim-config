@@ -38,4 +38,8 @@ command TREE NERDTree
 " https://github.com/junegunn/fzf
 set rtp+=~/.fzf
 
-
+" Lightline configuration.
+set laststatus=2
+let g:lightline = {
+    \ 'colorscheme': 'wombat',
+    \ }
