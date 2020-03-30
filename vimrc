@@ -30,6 +30,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Add highlighting for Scons.
 au BufRead,BufNewFile SContruct set filetype=python
 
-command Tree NERDTree
+" Command alias for NERDTree.
+command TREE NERDTree
 
-
+" Add fzf support.
+set rtp+=~/.fzf
