@@ -34,4 +34,8 @@ au BufRead,BufNewFile SContruct set filetype=python
 command TREE NERDTree
 
 " Add fzf support.
+" fzf needs to be install separately through its Github repo.
+" https://github.com/junegunn/fzf
 set rtp+=~/.fzf
+
+
